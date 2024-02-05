@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Jquery Tuto All in One</title>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/font-awesome.min.css">
+        </head>
+        <body>
+            
+            <!--Start Navbar-->
+            <ul class="navbar">
+                    <li><a href="#" data-scroll="home">Home</a></li>
+                    <li><a href="#" data-scroll="services">Services</a></li>
+                    <li><a href="#" data-scroll="features">Features</a></li>
+                    <li><a href="#" data-scroll="testimonials">Testimonials</a></li>
+                    <li><a href="#" data-scroll="contactus">Contact Us</a></li>
+            </ul>
+            <!--End Navbar-->
+            
+            <!--Start Fixed Menu-->
+            
+            <div class="fixed-menu">
+                <i class="fa fa-gear"></i>
+                <h3>Change Colors</h3>
+                <ul class="change-colors">
+                    <li data-color="blue"></li>
+                    <li data-color="red"></li>
+                    <li data-color="green"></li>
+                    <li data-color="purple"></li>
+                </ul>
+                <h3>Important Links</h3>
+                Testing Links
+            </div>
+            
+            <!--End Fixed Menu-->
+            
+            <!--Start Sections-->
+            <div id="home" class="block">
+                <h3>Home</h3>
+            <!--Start Popups-->
+                <div class="popups">
+                    <span class="show-popup" data-popup=".first-popup">Show 1st Popup</span>
+                    <span class="show-popup" data-popup=".second-popup">Show 2nd Popup</span>
+                </div>
+            <!--End Popups-->
+            <!--Start Error Message-->
+            <div class="error-message">
+                This Is Error Message This is The Error !
+            </div>
+            <!--End Error Message-->
+            <!--Start Buttons With Effects-->
+                <div class="buttons-effects">
+                    <button class="buttons-effect from-left">
+                        <span>From Left</span>
+                    </button>
+                    <button class="buttons-effect from-top">
+                        <span>From Top</span>
+                    </button>
+                    <button class="buttons-effect border-left">
+                        <span>Border From Left</span>
+                    </button>
+                    <button class="buttons-effect border-top">
+                        <span>Border From Left</span>
+                    </button>
+                </div>
+                <!--Start Bounce Button-->
+                <div class="buttons-effects">
+                    <button class="buttons-effect bounce bounce-one">
+                        Bounce Once
+                    </button>
+                    <button class="buttons-effect bounce bounce-two">
+                        Bounce Double
+                    </button>
+                    <button class="buttons-effect bounce bounce-three">
+                        Bounce Triple
+                    </button>
+                </div>
+                <!--End Bounce Button-->
+            <!--End Buttons With Effects-->
+            <!--Start Progress Bar--> 
+            <div class="animated-progress progress-blue">
+                <span data-progress="45"></span>
+            </div>
+            <div class="animated-progress progress-red">
+                <span data-progress="25"></span>
+            </div>
+            <div class="animated-progress progress-green">
+                <span data-progress="60"></span>
+            </div>
+            <div class="animated-progress progress-purple">
+                <span data-progress="80"></span>
+            </div>
+            <!--End Progress Bar-->  
+                
+            <!--Start Gallery--> 
+                
+                <div class="gallery">
+                    <div class="master-image">
+                        <i class="skin-background fa fa-chevron-left fa-lg"></i>
+                        <i class="skin-background fa fa-chevron-right fa-lg"></i>
+                        <img src="img/01.png">
+                    </div>
+                    <div class="thumbnails">
+                        <img src="img/01.png" class="selected">
+                        <img src="img/02.png">
+                        <img src="img/03.png">
+                        <img src="img/04.png">
+                        <img src="img/05.png">
+                        <img src="img/05.png">
+                        <img src="img/05.png">
+                    </div>
+                </div>
+                
+            <!--End Gallery--> 
+            <!--Start Products--> 
+                
+                <div class="products">
+                    <div class="product">
+                        <h3>Product One</h3>
+                        <span class="date">25/04/2018</span>
+                        <img src="img/products/03.png">
+                        <i class="fa fa-plus fa-lg"></i>
+                        <p class="description">This Is Test Description</p>
+                    </div>
+                    <div class="product">
+                        <h3>Product Two</h3>
+                        <span class="date">25/06/2018</span>
+                        <img src="img/products/04.png" alt="">
+                        <i class="fa fa-plus fa-lg"></i>
+                        <p class="description">This Is Test Description</p>
+                    </div>
+                </div>
+                
+            <!--End Products--> 
+            <!--Start Grid/List Products--> 
+                
+                <div class="items list-view">
+                    <div class="view-options">
+                        <i class="active fa fa-list fa-fw fa-2x" data-view="list-view"></i>    
+                        <i class="fa fa-th-large fa-fw fa-2x" data-view="grid-view"></i>    
+                    </div>    
+                    <div class="item">
+                        <h3>Item One</h3>
+                        <span class="date">25/04/2018</span>
+                        <img src="img/products/01.png">
+                        <i class="fa fa-plus fa-lg"></i>
+                        <p class="description">This Is Test Description</p>
+                    </div>
+                    <div class="item">
+                        <h3>Item Two</h3>
+                        <span class="date">25/06/2018</span>
+                        <img src="img/products/02.png" alt="">
+                        <i class="fa fa-plus fa-lg"></i>
+                        <p class="description">This Is Test Description</p>
+                    </div>
+                </div>
+            <!--End Grid/List Products--> 
+            <!--Start Our Form-->
+                <div class="our-form">
+                    <form>
+                        <div>
+                            <input type="text" class="detect-unicode" required="required" placeholder="Type Your Name">
+                            <span class="the-message">Please Fill The Field</span>
+                            <div class="unicode"></div>
+                        </div>
+                        <div>
+                            <input type="email" class="auto-direction" required="required" placeholder="Type Your Email">
+                            <span class="the-message">Please Fill The Field</span>
+                        </div>
+                        <div>
+                            <input type="password" required="required" placeholder="Type Your Password">
+                            <span class="the-message">Please Fill The Field</span>
+                        </div>
+                        <div>
+                            <input class="add-tag" type="text" placeholder="Type Your Tags The Press[,]">
+                            <div class="tags"></div>
+                        </div>
+                        <div>
+                            <textarea required="required" placeholder="Type Your Message"></textarea>
+                            <span class="the-message">Please Fill The Field</span>
+                        </div>
+                        <input type="file">
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            <!--End Our Form-->
+                
+            <!--Start Trimmed Text-->
+                <div class="trimmed-texts">
+                    <p class="p-one">Lorem is ja shas tsa stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u  stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u  stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u  stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u eu"e "eze zeye zey"e"e nzeh </p>
+                    <p class="p-two">Lorem is ja shas tsa stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u  stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u  stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u  stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u eu"e "eze zeye zey"e"e nzeh </p>
+                    <p class="p-three">Lorem is ja shas tsa stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u  stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u  stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u  stya aeytbd efhbe euae" uazehz eyze zeyzeazyeaozk sdd zoze zepoe"u eu"e "eze zeye zey"e"e nzeh </p>
+                </div>
+            <!--End Trimmed Text-->
+            <!--Start Same Divs Height Divs-->
+                
+                <div class="container same-height">
+                    <div class="one">
+                            Tarik is the best web designer if you don't believe me try thi tutorial ok
+                            signer if you don't believe me try thi tutorial ok
+                    </div>
+                    <div class="two">
+                            Tarik is the best web designer if you don't believe me try thi tutorial ok
+                            signer if you don't believe me try thi tutorial ok't believe me try thi tutorial ok
+                            signer if you don't believe me try thi tutorial ok
+                    </div>
+                    <div class="three">
+                            Tarik is the best web designer if you don't believe me try thi tutorial ok
+                            signer if you don't believe me try thi tutorial okon't believe me try thi tutorial ok
+                            signer if you don't believe me try thi tutorial okon't believe me try thi tutorial ok
+                            signer if you don't believe me try thi tutorial ok
+                    </div>
+                </div>
+                
+            <!--End Same Divs Height Divs-->
+                
+            <!-- Start Shuffling Cards -->
+                
+                <div class="container">
+                    <div class="cards">
+                        <div class="card card-one"><i class="fa fa-facebook fa-5x"></i></div>
+                        <div class="card card-two"><i class="fa fa-twitter fa-5x"></i></div>
+                        <div class="card card-three"><i class="fa fa-instagram fa-5x"></i></div>
+                        <div class="card card-four"><i class="fa fa-google fa-5x"></i></div>
+                        <div class="card card-five"><i class="fa fa-envelope fa-5x"></i></div>
+                        <div class="card card-six"><i class="fa fa-youtube fa-5x"></i></div>
+                        <div class="card card-seven"><i class="fa fa-yahoo fa-5x"></i></div>
+                        <div class="card card-eight"><i class="fa fa-user fa-5x"></i></div>
+                    </div>
+                </div>
+                
+            <!-- End Shuffling Cards -->
+                
+            <!-- Start Blink Warning -->
+                
+                <div class="container">
+                    <h3 class="blink-warning">This is Warning</h3>
+                </div>
+                
+            <!-- End Blink Warning  -->
+            <!-- Start To Do List -->
+                
+                <div class="container">
+                    <div class="todo-list">
+                        <h3>ToDo List</h3>
+                        <ul class="tasks">
+                            <li>Finishing Phyton Cours</li>
+                            <li>Learning New Web Tech</li>
+                            <li>Call My Friend Mahmoud</li>
+                            <li>Update My Website</li>
+                        </ul>
+                        <form class="add-task" method="POST">
+                            <input type="text" class="task-input" name="task" placeholder="Enter New Task">
+                        </form>
+                    </div>
+                </div>
+                
+            <!-- End Blink Warning  -->
+                
+            <!-- Start TypeWritter Machine -->
+                
+                <div class="container">
+                    <p class="typer" data-text="This is test ok don't ever remind ok Let's Go Now ! Lorem is ja shas tsa stya aeytbd efhbe euae'uazehz eyze zeyzeazyeaozk sdd zoze zepoe'u  stya aeytbd efhbe euae' uazehz eyze zeyzeazyeaozk sdd zoze zepoeu  stya aeytbd efhbe euae uazehz eyze zeyzeazyeaozk sdd zoze zepo uazehz eyze zeyzeazyeaozk sdd zoze zepoe"></p>
+                </div>
+                
+            <!-- End TypeWritter Machine -->
+                
+                            
+            <!-- Start Table Total -->
+                
+                <table class="summary">
+                    <tr>
+                        <td>Name</td>
+                        <td>Value</td>
+                        <td>Price</td>
+                    </tr>
+                    <tr>
+                        <td>Data One</td>
+                        <td>10 items</td>
+                        <td class="price">100</td>
+                    </tr>
+                    <tr>
+                        <td>Data Two</td>
+                        <td>5 items</td>
+                        <td class="price">80</td>
+                    </tr>
+                    <tr>
+                        <td>Data Three</td>
+                        <td>1 item</td>
+                        <td class="price">20</td>
+                    </tr>
+                    <tr>
+                        <td>Data Four</td>
+                        <td>20 items</td>
+                        <td class="price">200</td>
+                    </tr>
+                    <tr>
+                        <td>Data Five</td>
+                        <td>2 items</td>
+                        <td class="price">28</td>
+                    </tr>
+                    <tr class="total-cell">
+                        <td colspan="2">Total : </td>
+                        <td class="the-total">Value</td>
+                    </tr>
+                </table>
+                
+            <!-- End Table Total -->
+                
+            <!-- Start Auto Change Notes -->
+                
+                <div class="container">
+                    <div class="text-ticker">
+                        <h3>Today Notes</h3>
+                        <ul class="ticker-list">
+                            <li class="active">Test 1</li>
+                            <li>Test 2</li>
+                            <li>Test 3</li>
+                            <li>Test 4</li>
+                            <li>Test 5</li>
+                            <li>Test 6</li>
+                        </ul>
+                    
+                    </div>
+                </div>
+                
+            <!-- End  Auto Change Notes -->
+                
+                
+            </div>
+            <div id="services" class="block">
+                <h3>Services</h3> 
+            </div>
+            <div id="features" class="block">
+                <h3>Features</h3> 
+            </div>
+            <div id="testimonials" class="block">
+                <h3>Testimonials</h3> 
+            </div>
+            <div id="contactus" class="block">
+                 <h3>Contact Us</h3>
+            </div>
+            <!--End Sections-->
+            
+            <!--Start ScrollToTop-->
+            <a href="#" class="scroll-to-top">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </a>
+            <!--End ScrollToTop-->
+            
+            <!--Start Popup-->
+            <div class="popup first-popup">
+                <div class="inner">
+                    <h2>This is 1st Pop up</h2>
+                    <p>This is the best pub you already know that so be honest dont ever lie to me or to anyone ok or i will teach you what your parents forgot to tell you !</p>
+                    <button class="close">Close</button>
+                </div>
+            </div>
+            <div class="popup second-popup">
+                <div class="inner">
+                    <h2>This is 2nd Pop up</h2>
+                    <p>This is the best pub you already know that so be honest dont ever lie to me or to anyone ok or i will teach you what your parents forgot to tell you !</p>
+                    <button class="close">Close</button>
+                </div>
+            </div>
+            <!--End Popup-->
+            
+            <script src="js/jquery-1.12.4.js"></script>
+            <script src="js/main.js"></script>
+        </body>
+    </html>
